@@ -63,11 +63,11 @@ p:not(:first-of-type) {
 }
 /* ::before Pseudo-element */
 ul li::before {
-    content: icon;
+    content: " 🚀";
 }
 /* ::after Pseudo-element */
 a::after {
-    content: icon;
+    content: " 🚀";
 }
 /* ::first-letter Pseudo-element */
 p::first-letter {
