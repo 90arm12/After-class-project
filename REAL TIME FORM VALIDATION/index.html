@@ -4,13 +4,22 @@
         <title>Real Time Form Validation</title>
     </head>
     <body>
-        <label>Email:</label>
-        <input type="text" id="email"><br><br>
-        <label>Password:</label>
-        <input type="password" id="password"><br><br>
-        <label>Age:</label>
-        <input type="text" id="age"><br><br>
-        <button on click="validate(e)">Login</button>
         <script src="script.js"></script>
+        <div id="error"></div>
+        <form action="/">
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="text">
+            </div><br>
+            <div>
+                <label for="password">Password:</label>
+                <input id="password" name="password" type="password">
+            </div><br>
+            <div>
+                <label for="age">Age:</label>
+                <input id="age" name="age" type="number">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
     </body>
 </html>

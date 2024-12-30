@@ -1,9 +1,9 @@
 function validate(e) {
     e.preventDefault();
 
-    const email = document.getElementById('email').value;
-    const pass = document.getElementById('pass').value;
-    const age = document.getElementById('age').value;
+    const email = document.getElementById('email');
+    const password = document.getElementById('password');
+    const age = document.getElementById('age');
     const msgBox = document.getElementById('message');
 
     let message = '';
@@ -11,7 +11,7 @@ function validate(e) {
     if (email === '') {
         message = 'Enter an email.';
         msgBox.style.color = 'red';
-    } else if (pass === '') {
+    } else if (password === '') {
         message = 'Enter a password.';
         msgBox.style.color = 'red';
     } else if (age === '') {
