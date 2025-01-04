@@ -17,6 +17,6 @@ function dsc() {
 function square() {
     const mapped_arr = arr.map(function (e) {
         return e * e;
-    })
+    });
     document.getElementById("mapped_array").innerHTML = mapped_arr;
 }
